@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 25px;
+}
+.nav-ele{
+    margin-right: 15px;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.section-right{
+    margin: 20px;
+}
+
+.section-personal p{
+    margin: 0 20px 0 20px;
+}
