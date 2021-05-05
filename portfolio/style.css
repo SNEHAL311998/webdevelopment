@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+    display: flex;
+    justify-content:flex-end;
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+ ul {
+    list-style: none;
+    margin: 35px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+ul li{
+    display: inline;
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.main{
+    margin: 35px;
+    display: flex;
+    border: 2px solid red;
+    border-radius: 25px;
+    width: 93%; 
+    height: 500px;
+    padding:10px;
+}
+#intro{
+    margin: 50px;
+}
+section h1{
+    text-align: center;
+    font-size: 45px;
+    margin: 35px;
+
+}
+.left{
+    flex:1;
+    /* border: 2px solid blue; */
+}
+.left img{
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    background-position: center;
+    margin-left:5px;
+}
+.right{
+    flex: 1;
+    /* border: 2px solid green; */
+    padding: 25px;
+}
+.right span{
+    color: red;
+}
+.right h2{
+    font-size: 35px;
+}
+.right p{
+    padding: 8px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.right #resume{
+    background: black;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.right #resume:hover{
+    background: grey;
+    transition: 0.5s ease;
+}
+#resume a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7px;
+
+}
+.skills{
+    display: flex;
+}
+
+.skill-left{
+    flex:1;
+    margin:25px 25px 25px 150px;
+
+}
+.skill-left h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.skill-left p{
+    line-height: 30px;
+}
+
+.skill-right{
+    flex:1;
+    margin:25px 25px 25px 250px;
+
+}
+
+.skill-right li{
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.achiv{
+    margin: 50px;
+}
+.achiv li{
+    padding: 20px;
+}
+.achiv p{
+    line-height: 30px;
+}
+
+.projects{
+    margin: 50px;
+}
+.projects li{
+    padding: 20px;
+}
+
+ hr{
+    width: 9%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    height: 600px;
+}
+footer h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+footer h2{
+    margin-top: 35px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.footer-ele{
+    margin-top: 50px;
+}
+
+.footer-ele li{
+
+    margin-left: 200px;
+    padding: 15px;
+}
+
+.footer-ele li a{
+    text-decoration: none;
+}
