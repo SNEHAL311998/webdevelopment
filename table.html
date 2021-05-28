@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <section>
+        <table>
+            <caption>HTML TABLE</caption>
+            <thead>
+                <th>NAME</th>
+                <th>USN</th>
+                <th>PERCENTAGE</th>
+                <th>PLACE</th>
+            </thead>
+            <tr>
+                <th>MAX</th>
+                <th>4jk18cs001</th>
+                <th>90.2%</th>
+                <th>MANGALORE</th>
+            </tr>
+            <tr>
+                <th>JAKE</th>
+                <th>4jk18cs002</th>
+                <th>85.7%</th>
+                <th>BANGALORE</th>
+            </tr>
+            <tr>
+                <th>PAUL</th>
+                <th>4jk18cs010</th>
+                <th>89.2%</th>
+                <th>MYSORE</th>
+            </tr>
+            <tr>
+                <th>PAUL</th>
+                <th>4jk18cs010</th>
+                <th>89.2%</th>
+                <th>MYSORE</th>
+            </tr>
+            <tr>
+                <th>PAUL</th>
+                <th>4jk18cs010</th>
+                <th>89.2%</th>
+                <th>MYSORE</th>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <fieldset>
+            <legend>User Registration</legend>
+            <form action="">
+                <p>
+                    <label for="">NAME</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label for="">USN</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label for="">PERCENTAGE</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label for="">Select Place</label>
+                    <select name="SelectPlace" id="select">
+                        <optgroup label="Karnataka">
+                            <option value="">Mysore</option>
+                            <option value="">Bangalore</option>
+                            <option value="">Mangalore</option>
+                        </optgroup>
+                        <option value="">Mumbai</option>
+                        <option value="">Tamilnadu</option>
+                        <option value="">Uttar Pradesh</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="date">
+                    <input type="datetime-local">
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </section>
+</body>
+
+</html>

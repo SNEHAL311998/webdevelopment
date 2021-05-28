@@ -1,0 +1,75 @@
+section{
+    padding-top: 50px;
+   margin-left: 500px;
+}
+
+table{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+table caption{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+table thead{
+    background-color: red;
+    color: black;
+}
+table thead:hover{
+    background-color: rgb(255, 255, 255);
+}
+table th{
+    border: 2px solid black;
+    padding: 15px;
+    
+}
+table tr:nth-child(even){
+    background-color: grey;
+    color: white;
+}
+table tr:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+fieldset{
+    width: 43%;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+form {
+    padding: 25px;
+}
+label{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+  
+}
+legend{
+    color: red;
+    font-weight: 500;
+    font-size: 25px;
+}
+input{
+    width: 75%;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+#select{
+    height: 30px;
+    width: 77%;
+}
+
+button{
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}

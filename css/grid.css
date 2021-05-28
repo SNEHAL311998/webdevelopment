@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: cadetblue;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+nav{
+    background-color:beige;
+    width: 180px;
+    height: 100vh;
+    float: left;
+}
+nav > ul > li{
+    padding: 15px;
+
+}
+nav > ul > li > a{
+    font-size: 20px;
+    /* list-style: none; */
+    text-decoration: none;
+}
+.main{
+    /* margin-left: 300px; */
+    display: grid;
+    grid: inherit;
+}
+.main h2{
+    text-align: center;
+    color: red;
+    margin: 25px;
+    font-size: 2rem;
+}
+.main figure{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 270px;
+    margin-bottom: 20px;
+    clear: left;
+    margin-left: 15px;
+}
+.main figure img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.main figure figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.main p{
+    padding: 20px;
+    line-height: 25px;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-color: #e8eaf6;
+}
+
+header{
+    margin: 10px;
+    height: 100px;
+    
+}
+
+header .head-1{
+    padding:15px;
+    background-color: #1a237e;
+    color: white;
+}
+
+.head-1 h1{
+    font-size: 55px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex:1;
+    /* padding: 15px; */
+    background-color: #3f51b5;
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a:hover{
+    background-color: red;
+}
+
+.img-section{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.img-section h1{
+    font-size: 45px;
+    background-color: #c5cae9;
+}
+
+.img-section p{
+    font-size: 35px;
+    padding: 15px;
+}
+
+.purple-color{
+    background-color: #c5cae9;
+
+}
+
+.rel-topics{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.rel-topics h2{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.reviews h2{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.reviews p{
+    margin: 20px;
+    font-size: 35px;
+}
+
+footer p{
+    padding: 15px;
+    font-size: 35px;
+}
+
+footer #link{
+    padding-left: 15px;
+}
