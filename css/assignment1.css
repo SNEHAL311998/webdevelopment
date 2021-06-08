@@ -13,9 +13,9 @@ article{
     border-radius: 20px;
 }
 article > h2{
-    margin: -30px;
     border-bottom: 1px solid grey;
     padding: 20px;
+    margin: -30px;
     font-size: 30px;
 }
 article > div{
@@ -30,14 +30,20 @@ article > div a{
     color: white;
     border-radius: 10px;
 }
+article > div a:hover{
+    border: 2px solid grey;
+    transition: all 0.3s ease-in;
+    color: black;
+    background-color: white;
+}
 article > div >figure > img{
     width: 200px;
     height: 200px;
     float: left;
+    border-radius: 25px;
 }
 .side-right {
     margin-left: 200px;
-    width: initial;
     height: 195px;
 }
 .side-right h3{
@@ -48,6 +54,7 @@ article > div >figure > img{
     margin-top: 25px;
     padding-left: 25px;
     line-height: 20px;
+    text-align: justify;
 }
 a{
     float: right;
@@ -76,9 +83,10 @@ footer .left img{
     width: 50px;
     height: 50px;
     padding: 5px;
+    border-radius: 15px;
 }
 footer .right{
-    margin-left: 350px;
+    margin-left: 400px;
 }
 footer .right h4{
     margin-bottom: 15px;
@@ -86,4 +94,5 @@ footer .right h4{
 }
 footer .right p{
     line-height: 30px;
+    text-align: justify;
 }

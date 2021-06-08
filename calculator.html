@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <meta name="description" />
+    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+    <script type="text/javascript" src="js/calculator.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="calc-container">
+
+            <h1>Simple Calculator</h1>
+
+            <input id="box" value="" type="text" placeholder="0"><br/>
+
+            <div class="btn-container">
+                <div class="row">
+                    <button class="btn" onclick="shownum_display('1')"><strong>1</strong></button>
+                    <button class="btn" onclick="shownum_display('2')"><strong>2</strong></button>
+                    <button class="btn" onclick="shownum_display('3')"><strong>3</strong></button>
+                    <button class="btn cbtn" onclick="delete_num()"><strong>⟸</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="shownum_display('4')"><strong>4</strong></button>
+                    <button class="btn" onclick="shownum_display('5')"><strong>5</strong></button>
+                    <button class="btn" onclick="shownum_display('6')"><strong>6</strong></button>
+                    <button class="btn" onclick="shownum_display('+')"><strong>+</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="shownum_display('7')"><strong>7</strong></button>
+                    <button class="btn" onclick="shownum_display('8')"><strong>8</strong></button>
+                    <button class="btn" onclick="shownum_display('9')"><strong>9</strong></button>
+                    <button class="btn" onclick="shownum_display('-')"><strong>-</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="shownum_display('.')"><strong>.</strong></button>
+                    <button class="btn" onclick="shownum_display('0')"><strong>0</strong></button>
+                    <button class="btn" onclick="shownum_display('00')"><strong>00</strong></button>
+                    <button class="btn" onclick="shownum_display('*')"><strong>*</strong></button>
+
+                </div>
+                <div class="row">
+                    <button class="btn cbtn" onclick="clear_btn()"><strong>C</strong></button>
+                    <button class="btn solvebtn" onclick="solve_result()"><strong>=</strong></button>
+                    <button class="btn" onclick="shownum_display('/')"><strong>/</strong></button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
