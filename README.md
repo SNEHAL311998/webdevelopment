@@ -1,3 +1,2 @@
 # Web Development
-<hr>
-##All web development college projects
+## All web development college projects
