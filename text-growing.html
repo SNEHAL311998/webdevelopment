@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Growing</title>
+</head>
+
+<body>
+    <div id="main-text"></div>
+    <script>
+        var font_size = 0, f = 1, t = "TEXT-GROWING", color;
+        function expand() {
+            if (f == 1)
+                font_size += 5, color = "red";
+            else
+                font_size -= 5, color = "blue";
+
+            document.getElementById("main-text").innerHTML = "<h1 style=\"font-size: " + font_size + "px ; margin:0; color : " + color + "\"><b> " + t + "</b></h1>";
+
+            if (font_size == 50)
+                f = 0, t = "TEXT-SHRINKING";
+            if (font_size == 5)
+                f = 1, t = "TEXT-GROWING";
+            time_out();
+        }
+        function time_out() {
+            setTimeout(expand, 100);
+        }
+        time_out();
+    </script>
+</body>
+
+</html>
